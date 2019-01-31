@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WEB DESIGN</title>
+  <link rel="icon" href="images/stock_market-512.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- ナビゲーション -->
+  <nav class="nav-wrapper">
+    <div class="logo">
+      <i class="fas fa-laptop"></i><strong>WEB DESIGN</strong>
+    </div>
+    <div class="burger-icon"><i class="fas fa-bars"></i>MENU</div>
+    <ul class="nav-items  main-nav mobile-hide">
+      <li class="list-item"><a href="javascript:;"><i class="fas fa-home"></i>Home</a></li>
+      <li class="list-item"><a href="#services"><i class="fas fa-concierge-bell"></i>Services</a></li>
+      <li class="list-item"><a href="#company"><i class="fas fa-users"></i>Company</a></li>
+      <li class="list-item"><a href="#address"><i class="fas fa-map-marked-alt"></i>Address</a></li>
+      <li class="list-item"><a href="#contact"><i class="fab fa-telegram-plane"></i>Contact</a></li>
+    </ul>
+  </nav>
+  <!-- PR用ビデオ写真 -->
+  <div class="nav-baner">
+    <video class="video" autoplay muted loop width="800px">
+      <source src="video/Pexels Videos 5069.mp4" type="video/mp4">
+    </video>
+    <article class="picture"></article>
+  </div>
+  <!-- メイン内容 -->
+  <section class="main-wrapper">
+    <div class="wrapper">
+      <div class="featured" id="services">
+        <h1>ハイクオリティのWEB制作サービスをご提供</h1>
+      </div>
+      <div class="sub-featured">
+        <div class="sub1">
+          <h3>WEBデザイン</h3>
+        </div>
+        <div class="sub2">
+          <h3>WEBプログラミング</h3>
+        </div>
+        <div class="sub3">
+          <h3>WEB　SEO対策</h3>
+        </div>
+      </div>
+      <div class="main-content" id="company">
+        <p>私たちは分析・企画・設計／制作・開発というWebサイト制作に必要な各ステップにおいて、ユーザーとクライアントのそれぞれのニーズに応えていけるWebサイトを提供したいと常に考えています。</p>
+        <p>弊社は、プロデューサー、Webマーケティングコンサルタント、デザイナー、ソフトエンジニア、と4つの職種に分けています。プロジェクトごとに各職種で適任者を選び、１つのプロジェクトチームを作ってWebサイトの制作や運用を行っていきます。</p>
+        <p>様々な業界・業態・規模のコーポレートサイト制作経験を活かし、ビジネスに貢献しうる最適なコーポレートサイトを企画します。他社にはないユニークなサービスや製品の魅力を作り出し、企業側の切り札として磨き上げることで成果の高いサイトづくりを実施します。
+          ネットでの物品購入が増加傾向にある今、楽天やamazonなど購入経路も多様化しています。
+          競合他社が大いに存在する中で、商品やショップの魅力を伝え、運営コストを抑えながらセキュリティを考慮したサイトを制作します。</p>
+        <p>メディ媒体が多様化してくる中で、スマートフォンをはじめ全てのデバイスにワンソースでの対応をご提案。お客様でも簡単に情報を発信、更新できるブログシステムを実装したサイトや、ECサイトの構築など、制作するだけでなく、公開後の更新サポートや運用に関するご相談もお任せ下さい。</p>
+        <p>中小企業の多くは、オンリーワンの技術や素晴らしいサービスを持っていると思っています。
+          お客様ならではの特徴とは何かをヒアリングし、その特徴だけではなく、コーポレートカラー、社風を意識したデザインを行います。</p>
+      </div>
+      <!-- 問い合わせフォーム -->
+      <div class="main-sidebar" id="contact">
+        <div class="email-digest-subscription">
+          <h2>お問い合わせ</h2>
+          <p>WEBからのお問い合わせは、下記のフォームに必要事項をご記入の上、お送りください!</p>
+          <form class="contact-form" action="index.html" method="post">
+            <input type="text" class="contact-form-text" placeholder="お名前">
+            <input type="email" class="contact-form-text" placeholder="メールアドレス">
+            <input type="text" class="contact-form-text" placeholder="携帯番号">
+            <textarea class="contact-form-text" placeholder="お問い合わせ内容"></textarea>
+            <input type="submit" class="contact-form-btn" value="送　信">
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- アドレスマップ -->
+  <section class="map" id="address">
+    <div class="co">
+      <p><span>ー 本　社 ー</span></p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6522.769413271065!2d136.88173222504022!3d35.17196294132327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600376dcfc8e068b%3A0x77889eed2e96ac54!2z44CSNDUwLTAwMDIg5oSb55-l55yM5ZCN5Y-k5bGL5biC5Lit5p2R5Yy65ZCN6aeF!5e0!3m2!1sja!2sjp!4v1548723796411"
+        frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <div class="bo">
+      <p><span>ー 支　社 ー</span></p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26093.116913717793!2d136.88607009880607!3d35.165607590316974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600370d2d856a4cb%3A0x8fa9a6c6413b9de7!2z44CSNDYwLTAwMDgg5oSb55-l55yM5ZCN5Y-k5bGL5biC5Lit5Yy65qCE!5e0!3m2!1sja!2sjp!4v1548900157008"
+      frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+  </section>
+  <!--footer  -->
+  <footer class="footer">
+    <div class="foot1">
+      <h3 class="logo">WEB DESIGN</h3>
+      <p>日本・愛知県</p>
+      <p>名古屋市***区**番地**町***34</p>
+      <p>(TEL)0120-****-***</p>
+      <p>(FAX)052-****-***</p>
+    </div>
+    <div class="foot2">
+      <h4>SNS Links</h4>
+      <ul class="fa-ul social-footer">
+        <li><a href="javascript:;"><span class="fa-li"><i class="fab fa-weibo"></i></span>微博</a></li>
+        <li><a href="javascript:;"><span class="fa-li"><i class="fab fa-line"></i></span>LINE</a></li>
+        <li><a href="javascript:;"><span class="fa-li"><i class="fab fa-qq"></i></span>QQ</a></li>
+        <li><a href="javascript:;"><span class="fa-li"><i class="fab fa-skype"></i></span>Skype</a></li>
+      </ul>
+    </div>
+    <div class="foot3">
+      <h4>Social Media</h4>
+      <ul class="fa-ul social-footer">
+        <li><a href="javascript:;"><span class="fa-li"><i class="fab fa-youtube"></i></span>You Tube</a></li>
+        <li><a href="javascript:;"><span class="fa-li"><i class="fab fa-facebook"></i></span>Face Book</a></li>
+        <li><a href="javascript:;"><span class="fa-li"><i class="fab fa-twitter"></i></span>Twitter</a></li>
+        <li><a href="javascript:;"><span class="fa-li"><i class="fab fa-instagram"></i></span>Instagram</a></li>
+      </ul>
+    </div>
+    <div class="copyright">WebDesign.com &copy; 2019</div>
+  </footer>
+
+  <script>
+    //スマホ画面サイズ用、burger menu
+    ;
+    (function () {
+      let burgerIcon = document.querySelector('.burger-icon');
+      let mainNav = document.querySelector('.main-nav');
+      burgerIcon.addEventListener('click', function () {
+        if (mainNav.classList.contains('mobile-hide')) {
+          mainNav.classList.remove('mobile-hide');
+          mainNav.classList.add('mobile-show');
+        } else {
+          mainNav.classList.add('mobile-hide');
+          mainNav.classList.remove('mobile-show');
+        };
+      });
+    })();
+  </script>
+</body>
+
+</html>
