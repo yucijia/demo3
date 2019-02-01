@@ -309,6 +309,18 @@ textarea.contact-form-text {
   text-align: center;
 }
 
+/* go  to top css */
+.gotop{
+  position: fixed;
+  right: 20px;
+  bottom: 65px;  
+}
+.gotop a{
+  font-size:70px;
+  display: block; 
+  color: #fff;
+}
+
 /*　tablet css */
 @media screen and (max-width:950px) {
   .wrapper {

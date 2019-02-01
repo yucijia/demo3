@@ -13,7 +13,7 @@
 
 <body>
   <!-- ナビゲーション -->
-  <nav class="nav-wrapper">
+  <nav class="nav-wrapper" id="target">
     <div class="logo">
       <i class="fas fa-laptop"></i><strong>WEB DESIGN</strong>
     </div>
@@ -86,7 +86,7 @@
     <div class="bo">
       <p><span>ー 支　社 ー</span></p>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26093.116913717793!2d136.88607009880607!3d35.165607590316974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600370d2d856a4cb%3A0x8fa9a6c6413b9de7!2z44CSNDYwLTAwMDgg5oSb55-l55yM5ZCN5Y-k5bGL5biC5Lit5Yy65qCE!5e0!3m2!1sja!2sjp!4v1548900157008"
-      frameborder="0" style="border:0" allowfullscreen></iframe>
+        frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
   </section>
   <!--footer  -->
@@ -118,10 +118,13 @@
     </div>
     <div class="copyright">WebDesign.com &copy; 2019</div>
   </footer>
-
+  <!-- go to top  -->
+  <div class="gotop">
+    <a href="#target"><i class="far fa-arrow-alt-circle-up"></i></a>
+  </div>
+  <!-- js -->
   <script>
-    //スマホ画面サイズ用、burger menu
-    ;
+    //スマホ画面サイズ用、burger menu       
     (function () {
       let burgerIcon = document.querySelector('.burger-icon');
       let mainNav = document.querySelector('.main-nav');
